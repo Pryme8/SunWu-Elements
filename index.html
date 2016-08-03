@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SunWu Elements</title>
+</head>
+<link href="./css/sun-wu-main.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/sun-wu-main.js"></script>
+<body style="background:#FFFCC1;margin: 0;padding: 2em;">
+
+<h2>SUNWU ELEMENTS</h2>
+<p>A Collection of useful DOM elements</p>
+<hr />
+
+<h3>SLIDERS</h3>
+<div class='alt'>
+<h6>Horizontal - MIN: 0 , MAX: 100, STEP: 1;</h6>
+
+<div class="h-slider" min="0" max="100" step = "1">
+<span><div></div></span>
+<span><input value="0" /></span>
+</div>
+<BR />
+</div >
+
+<div  class='alt'>
+<h6>Horizontal - MIN: 0 , MAX: 1, STEP: 2;</h6>
+
+<div class="h-slider" min="0" max="1" step = "2">
+<span><div></div></span>
+<span><input value="0" /></span>
+</div>
+<BR />
+</div >
+
+<div class='alt'>
+<h6>Horizontal - MIN: 0 , MAX: 100, STEP: 1, RMIN: 0, RMAX:100;</h6>
+
+<div class="h-slider" min="0" max="100" step = "1" rMin="0" rMax="100">
+<span><div></div></span>
+<span><input value="0" /></span>
+</div>
+<BR />
+</div >
+
+<div class='alt'>
+<h6>Horizontal - MIN: 0 , MAX: 100, STEP: 1, RMIN: -200, RMAX:200;</h6>
+
+<div class="h-slider" min="0" max="100" step = "1" rMin="-200" rMax="200">
+<span><div></div></span>
+<span><input value="0" /></span>
+</div>
+</div>
+<hr />
+
+<h3>COLOR PICKERS</h3>
+
+<script>$('.h-slider').slider();</script>
+</body>
+</html>
